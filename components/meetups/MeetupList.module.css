@@ -1,0 +1,16 @@
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.list>div{
+  display: inline-block;
+  width: 25%;
+  margin: 20px;
+}
+.list::after{
+  content: "";
+  width: 25%;
+  max-width: 360px;
+  height: 0px;
+  visibility: hidden;
+}

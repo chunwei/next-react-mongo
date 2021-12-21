@@ -1,0 +1,33 @@
+.card{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 360px;
+  color: #000000d9;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+  box-shadow:0 1px 2px -2px #00000029, -2px 0px 2px #0000001f, 0px 1px 8px 1px #00000017;
+  }
+.card:hover{
+  transition: box-shadow .3s,border-color .3s;
+  box-shadow: 0 1px 2px -2px #00000029, 0 3px 6px #0000001f, 0 5px 12px 4px #00000017;
+}
+.card img{
+  margin-top: -1px;
+  margin-right: -1px;
+  margin-left: -1px;
+  display: block;
+  width: 100%;
+  border-radius: 2px 2px 0 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+}

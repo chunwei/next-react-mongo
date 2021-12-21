@@ -1,0 +1,13 @@
+.formItem{
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.formItem label{
+  flex: 1;
+  text-align: right;
+  padding-right: 8px;
+}
+.formItem input,.formItem textarea{
+  flex: 3;
+}
